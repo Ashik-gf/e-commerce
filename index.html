@@ -10,9 +10,24 @@
 </head>
 
 <body>
-
-    <header class=" grid grid-cols-12 gap-4 items-center py-3 px-12">
-        <aside class=" md:col-span-3 col-span-full text-center md:text-start ">
+    <div class=" max-w-7xl h-full sm:h-[48px] flex items-center mx-auto px-12  bg-black">
+      <div class=" w-full flex flex-col sm:flex-row sm:justify-between items-center">
+        <div class=" w-[300px]"></div>
+        <div class="flex justify-end items-center gap-2 sm:gap-4">
+            <p class=" text-white text-[10px] sm:text-sm">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+            <a href="#/" class=" border-b-2 border-white text-white text-[10px] sm:text-sm">Shop Now</a>
+        </div>
+        <div class=" w-full sm:w-auto flex justify-end py-3">
+            <select class=" text-white text-sm bg-black  ">
+                <option class=" ">English</option>
+                <option>Bangla</option>
+            </select>
+        </div>
+      </div>
+    </div>
+<div class=" max-w-7xl mx-auto px-12">
+ <header class=" grid grid-cols-12 gap-4 items-center py-3 ">
+        <aside class=" md:col-span-2 col-span-full text-center md:text-start ">
             <h1 class="w-[100px] text-center border-b-4 border-green-500 rounded-md text-xl font-semibold ">Exclusive</h1>
         </aside>
         <nav
@@ -26,7 +41,7 @@
             <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
                 href="/login.html">Login</a>
         </nav>
-        <div class="  md:col-span-3 col-span-full text-center md:text-start">
+        <div class="  md:col-span-4 col-span-full text-center md:text-start">
             <div class="flex justify-between  items-center gap-3">
                 <div class="relative ">
                     <input type="text" class=" h-[35px] w-[220px] bg-[#f5f5f5] cursor-pointer
@@ -40,11 +55,11 @@
                 </div>
             </div>
         </div>
-    </header>
-    <hr />
-
-    <main class=" grid grid-cols-12 gap-4 py-6 px-12">
-        <div class=" group  md:col-span-3 col-span-full text-black">
+</header>
+</div>
+<div class=" h-[1px] w-full bg-gray-300"></div>
+    <main class=" max-w-7xl mx-auto grid sm:grid-cols-12 gap-4 pb-4 px-12">
+        <div class=" group  md:col-span-3 col-span-full sm:py-6 text-black">
             <button class=" block sm:hidden  ">
                 Filter
             </button>
@@ -66,12 +81,14 @@
                 </ul>
             </div>
         </div>
-        <img class=" h-[100%] w-full rounded-lg col-span-full md:col-span-9" src="./images/banner1.png" />
-
+        <div class=" grid col-span-1 w-[1px] h-0 sm:h-full bg-slate-400"></div>
+        <div class="col-span-8 sm:py-6">
+            <img class=" h-[100%] w-full rounded-lg col-span-full md:col-span-9" src="./images/banner1.png" />
+        </div>
 
     </main>
     <!-- Today -->
-    <div class=" w-full px-12 sm:my-12">
+    <div class=" max-w-7xl mx-auto px-12 sm:my-12">
         <div class="Crad Header">
             <div class=" flex justify-start items-center gap-2">
                 <div class="w-2 h-4 bg-red-600 "></div>
@@ -100,13 +117,16 @@
         <div class=" w-full grid  sm:grid-cols-12 justify-items-center gap-4 overflow-hidden ">
             <!-- card 1 -->
             <div class="grid col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-40%</h1>
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
                     <img src="./images/game.svg" />
+                    <button class=" hidden group-hover:vi absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">HAVIT HV-G92 Gamepad</h1>
@@ -200,7 +220,7 @@
         <hr />
     </div>
     <!-- browser By Catagorys -->
-    <div class=" px-12 py-8">
+    <div class=" max-w-7xl mx-auto px-12 py-8">
         <div class="Crad Header">
             <div class=" flex justify-start items-center gap-2">
                 <div class="w-2 h-4 bg-red-600 "></div>
@@ -238,12 +258,12 @@
             </ul>
         </div>
     </div>
-    <div class=" px-12 py-4">
+    <div class="max-w-7xl mx-auto px-12 py-4">
         <hr />
     </div>
 
     <!-- browser By Catagorys -->
-    <div class=" w-full px-12 py-8">
+    <div class=" max-w-7xl mx-auto px-12 py-8">
         <div class="Crad Header">
             <div class=" flex justify-start items-center gap-2">
                 <div class="w-2 h-4 bg-red-600 "></div>
@@ -365,13 +385,13 @@
 
     </div>
     <!-- Today -->
-    <div class=" grid grid-cols-12 px-12 sm:pt-20 sm:pb-12 pt-4">
+    <div class=" max-w-7xl mx-auto grid grid-cols-12 px-12 sm:pt-20 sm:pb-12 pt-4">
         <div class=" grid col-span-12">
             <img src="./images/musicBanner.svg" />
         </div>
     </div>
     <!-- Our Products -->
-    <div class=" w-full px-12 sm:my-12">
+    <div class=" max-w-7xl mx-auto px-12 sm:my-12">
         <div class="Crad Header">
             <div class=" flex justify-start items-center gap-2">
                 <div class="w-2 h-4 bg-red-600 "></div>
@@ -630,11 +650,11 @@
     </div>
 
     <!-- Delevery Stutas -->
-    <div class="w-full flex justify-center px-12 py-8">
+    <div class="max-w-7xl mx-auto flex justify-center px-12 py-8">
         <img src="./images/Frame 702.svg" />
     </div>
 
-    <div class='grid sm:grid-cols-10 px-4 sm:px-12 sm:justify-self-center gap-12 sm:gap-4 h-full w-full  sm:h-[500px] bg-black text-white py-24'>
+    <div class='max-w-7xl mx-auto grid sm:grid-cols-10 px-4 sm:px-12 sm:justify-self-center gap-12 sm:gap-4 h-full w-full  sm:h-[500px] bg-black text-white py-24'>
 
         <div class=" grid sm:col-span-2 justify-self-center">
             <div class="flex flex-col">
