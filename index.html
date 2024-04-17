@@ -88,7 +88,7 @@
 
     </main>
     <!-- Today -->
-    <div class=" max-w-7xl mx-auto px-12 sm:my-12">
+    <div class=" max-w-7xl mx-auto px-12 sm:my-4">
         <div class="Crad Header">
             <div class=" flex justify-start items-center gap-2">
                 <div class="w-2 h-4 bg-red-600 "></div>
@@ -124,7 +124,7 @@
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
                     <img src="./images/game.svg" />
-                    <button class=" hidden group-hover:vi absolute bottom-1 p-2 text-white bg-black w-full">
+                    <button class=" hidden group-hover:block group-hover:animate-bounce absolute bottom-1 p-2 text-white bg-black w-full">
                         Add to Cart
                     </button>
                 </div>
@@ -142,14 +142,14 @@
             </div>
             <!-- card 2 -->
             <div class="grid col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-35%</h1>
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
                     <img src="./images/keyBord.svg" />
-                    <button class=" absolute bottom-1 p-2 text-white bg-black w-full">
+                    <button class=" hidden group-hover:block group-hover:animate-bounce absolute bottom-1 p-2 text-white bg-black w-full">
                         Add to Cart
                     </button>
                 </div>
@@ -167,13 +167,16 @@
             </div>
             <!-- card 3 -->
             <div class="grid col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-30%</h1>
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
                     <img src="./images/g27cq4-500x500 1.svg" />
+                    <button class=" hidden group-hover:block group-hover:animate-bounce absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">IPS LCD Gaming Monitor</h1>
@@ -189,13 +192,16 @@
             </div>
             <!-- card 4 -->
             <div class="grid col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-25%</h1>
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
                     <img src="./images/chair.svg" />
+                    <button class=" hidden group-hover:block group-hover:animate-bounce absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">S-Series Comfort Chair </h1>
@@ -217,8 +223,13 @@
                 View All Products
             </button>
         </div>
-        <hr />
+        <div class=" mx-auto px-12 sm:my-4 h-[1px] bg-gray-300"></div>
+       
     </div>
+
+    
+
+
     <!-- browser By Catagorys -->
     <div class=" max-w-7xl mx-auto px-12 py-8">
         <div class="Crad Header">
@@ -247,22 +258,38 @@
         </div>
         <div class=" w-full h-full sm:h-[145px] ">
             <ul class=" grid grid-cols-12 gap-4">
-                <li class=" grid col-span-4 sm:col-span-2"><a href=""><img src="./images/Category-Phone.svg" alt=""></a>
+                <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
+                    <img class=" group-hover:hidden " src="./images/Category-Phone.svg" alt=""></a>
+                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-phone.svg" alt=""></a>
                 </li>
-                <li class=" grid col-span-4 sm:col-span-2"><a href=""><img src="./images/computer.svg" alt=""></a></li>
-                <li class=" grid col-span-4 sm:col-span-2"><a href=""><img src="./images/smartWatch.svg" alt=""></a>
+                <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
+                    <img class=" group-hover:hidden " src="./images/computer.svg" alt=""></a>
+                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-monitor.svg" alt=""></a>
                 </li>
-                <li class=" grid col-span-4 sm:col-span-2"><a href=""><img src="./images/camera.svg" alt=""></a></li>
-                <li class=" grid col-span-4 sm:col-span-2"><a href=""><img src="./images/headPhone.svg" alt=""></a></li>
-                <li class=" grid col-span-4 sm:col-span-2"><a href=""><img src="./images/gaming.svg" alt=""></a></li>
+
+                <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
+                    <img class=" group-hover:hidden " src="./images/smartWatch.svg" alt=""></a>
+                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-watch.svg" alt=""></a>
+                </li>
+                <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
+                    <img class=" group-hover:hidden " src="./images/camera.svg" alt=""></a>
+                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-camera.svg" alt=""></a>
+                </li>
+                <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
+                    <img class=" group-hover:hidden " src="./images/headPhone.svg" alt=""></a>
+                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-headphone.svg" alt=""></a>
+                </li>
+                <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
+                    <img class=" group-hover:hidden " src="./images/gaming.svg" alt=""></a>
+                    <img class="group-hover:block hidden  rounded-lg " src="./images/red-gaming.svg" alt=""></a>
+                </li>
             </ul>
         </div>
+        <div class=" max-w-7xl mx-auto px-12  h-[1px] bg-gray-300 my-6"></div>
     </div>
-    <div class="max-w-7xl mx-auto px-12 py-4">
-        <hr />
-    </div>
+    
 
-    <!-- browser By Catagorys -->
+    <!-- This Mounth -->
     <div class=" max-w-7xl mx-auto px-12 py-8">
         <div class="Crad Header">
             <div class=" flex justify-start items-center gap-2">
@@ -291,13 +318,13 @@
         </div>
         <!-- shirt -->
         <div class=" h-full gap-4 grid grid-cols-12 overflow-hidden">
-            <div class="grid col-span-12 justify-self-center  sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+            <div class="grid col-span-12 justify-self-center hover:shadow-lg shadow-blue-400  sm:col-span-3 w-[270px] h-[350px]  ">
+                <div class=" relative cursor-pointer w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/shirt.svg" />
+                    <img class=" transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300 " src="./images/shirt.svg" />
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">The north coat</h1>
@@ -314,13 +341,13 @@
 
             <!-- bag -->
 
-            <div class="grid col-span-12 justify-self-center  sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+            <div class="grid col-span-12 justify-self-center   sm:col-span-3 w-[270px] h-[350px]  ">
+                <div class=" relative cursor-pointer w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/bag.svg" />
+                    <img class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/bag.svg" />
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">Gucci duffle bag</h1>
@@ -337,13 +364,13 @@
 
             <!-- music -->
 
-            <div class="grid col-span-12 justify-self-center  sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+            <div class="grid col-span-12 justify-self-center hover:shadow-lg shadow-blue-400  sm:col-span-3 w-[270px] h-[350px]  ">
+                <div class=" relative cursor-pointer w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/music.svg" />
+                    <img class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/music.svg" />
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">RGB liquid CPU Cooler</h1>
@@ -360,13 +387,13 @@
 
             <!-- music -->
 
-            <div class="grid col-span-12 justify-self-center  sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+            <div class="grid col-span-12 justify-self-center hover:shadow-lg shadow-blue-400  sm:col-span-3 w-[270px] h-[350px]  ">
+                <div class=" relative cursor-pointer w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/bookSelf.svg" />
+                    <img class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/bookSelf.svg" />
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">Small BookSelf</h1>
@@ -384,6 +411,7 @@
 
 
     </div>
+
     <!-- Today -->
     <div class=" max-w-7xl mx-auto grid grid-cols-12 px-12 sm:pt-20 sm:pb-12 pt-4">
         <div class=" grid col-span-12">
@@ -420,13 +448,16 @@
         <div class="grid grid-cols-12 gap-8 sm:gap-4 overflow-hidden ">
             <!-- card 1 -->
             <div class="grid col-span-12 justify-self-center sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group  cursor-pointer relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
 
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/dogfood.svg" />
+                    <img class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/dogfood.svg" />
+                    <button class=" hidden group-hover:block transition ease-in-out delay-150  hover:scale-90 duration-300  absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">Breed Dry Dog Food</h1>
@@ -442,14 +473,14 @@
             </div>
             <!-- card 2 -->
             <div class="grid col-span-12 justify-self-center sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group cursor-pointer relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
 
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/dslr.svg" />
-                    <button class=" absolute bottom-1 p-2 text-white bg-black w-full">
+                    <img class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/dslr.svg" />
+                    <button class=" hidden group-hover:block transition ease-in-out delay-150  hover:scale-90 duration-300  absolute bottom-1 p-2 text-white bg-black w-full">
                         Add to Cart
                     </button>
                 </div>
@@ -466,13 +497,16 @@
             </div>
             <!-- card 3 -->
             <div class="grid col-span-12 justify-self-center sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group  cursor-pointer relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
 
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/laptop.svg" />
+                    <img class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/laptop.svg" />
+                    <button class=" hidden group-hover:block transition ease-in-out delay-150  hover:scale-90 duration-300  absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">ASUS FHD Gaming Laptop</h1>
@@ -487,13 +521,16 @@
             </div>
             <!-- card 4 -->
             <div class="grid col-span-12 justify-self-center sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group cursor-pointer relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
 
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/snows.svg" />
+                    <img class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/snows.svg" />
+                    <button class=" hidden group-hover:block transition ease-in-out delay-150  hover:scale-90 duration-300  absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">Curology Product Set </h1>
@@ -508,13 +545,16 @@
             </div>
             <!-- card 5 -->
             <div class="grid col-span-12 justify-self-center sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group cursor-pointer relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-[#00ff66] px-3 rounded-md text-white">-40%</h1>
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/car.svg" />
+                    <img  class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/car.svg" />
+                    <button class=" hidden group-hover:block transition ease-in-out delay-150  hover:scale-90 duration-300  absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">Kids Electric Car </h1>
@@ -530,13 +570,16 @@
             </div>
             <!-- Shose -->
             <div class="grid col-span-12 justify-self-center sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group cursor-pointer relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
 
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/shose.svg" />
+                    <img  class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/shose.svg" />
+                    <button class=" hidden group-hover:block transition ease-in-out delay-150  hover:scale-90 duration-300  absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">Jr. Zoom Soccer Cleats </h1>
@@ -552,13 +595,16 @@
             </div>
             <!-- gaming -->
             <div class="grid col-span-12 justify-self-center sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group cursor-pointer relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-[#00ff66] px-3 rounded-md text-white">-40%</h1>
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/blackGaming.svg" />
+                    <img  class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/blackGaming.svg" />
+                    <button class=" hidden group-hover:block transition ease-in-out delay-150  hover:scale-90 duration-300  absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">GP11 Shooter USB Gamepad </h1>
@@ -574,13 +620,16 @@
             </div>
             <!-- jacket -->
             <div class="grid col-span-12 justify-self-center sm:col-span-3 w-[270px] h-[350px]  ">
-                <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
+                <div class=" group cursor-pointer relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
 
                     <div class=" space-y-2 absolute top-2 right-1">
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/loveSVG.svg" />
                         <img class=" h-8 bg-white p-2 rounded-full" src="./images/QuickView.svg" />
                     </div>
-                    <img src="./images/jacket.svg" />
+                    <img  class="transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300" src="./images/jacket.svg" />
+                    <button class=" hidden group-hover:block transition ease-in-out delay-150  hover:scale-90 duration-300  absolute bottom-1 p-2 text-white bg-black w-full">
+                        Add to Cart
+                    </button>
                 </div>
                 <div class=" pt-4">
                     <h1 class=" text-lg font-semibold">Quilted Satin Jacket </h1>
@@ -598,7 +647,7 @@
             <!-- View All Products -->
         </div>
         <div class="w-full grid py-12 ">
-            <button class=" bg-red-500 text-white w-[234px] mx-auto h-[56px] px-12 py-4 rounded-[4px]">
+            <button class=" bg-red-500 text-white hover:bg-red-400 w-[234px] mx-auto h-[56px] px-12 py-4 rounded-[4px]">
                 View All Products
             </button>
         </div>

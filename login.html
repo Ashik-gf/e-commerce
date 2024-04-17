@@ -11,8 +11,9 @@
 
 <body>
 
-    <header class=" grid grid-cols-12 gap-4 items-center py-3 px-12">
-        <aside class=" md:col-span-3 col-span-full text-center md:text-start ">
+   <div class="max-w-7xl mx-auto px-12">
+    <header class=" grid grid-cols-12 gap-4 items-center py-3 ">
+        <aside class=" md:col-span-2 col-span-full text-center md:text-start ">
             <h1 class=" text-xl font-semibold">Exclusive</h1>
         </aside>
         <nav
@@ -24,9 +25,9 @@
             <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
                 href="/#">Products</a>
             <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
-                href="/#">Login</a>
+                href="./login.html">Login</a>
         </nav>
-        <div class="  md:col-span-3 col-span-full text-center md:text-start">
+        <div class="  md:col-span-4 col-span-full text-center md:text-start">
             <div class="flex justify-between  items-center gap-3">
                 <div class="relative ">
                     <input type="text" class=" h-[35px] w-[220px] bg-[#f5f5f5] cursor-pointer
@@ -35,111 +36,115 @@
                     <img class="absolute top-2 right-2" src="./images/search.svg" />
                 </div>
                 <div class=" flex justify-between items-center gap-4">
-                    <img class="h-6" src="./images/./love.png" />
-                    <img class=" h-8 w-8" src="./images/./Cart1.svg" />
+                <div class="div">
+                    <a href="./WishList.html"> <img class="h-6" src="./images/./love.png" /></a>
+                </div>
+                  <div>
+                    <a href="./cart.html">
+                        <img class=" h-8 w-8" src="./images/./Cart1.svg" />
+                      </a>
+                  </div>
                 </div>
             </div>
         </div>
     </header>
     <hr />
-<div class="grid sm:grid-cols-12 gap-12 pt-8 pb-16">
-    <div class="grid col-span-6">
-        <img src="./images/loginBanner.svg" />
-    </div>
-    <div class="grid col-span-6">
-        <div class="w-[372px] h-[530px] mx-auto">
-            <h1 class=" text-center text-2xl font-semibold py-3">Create an account</h1>
-            <p class=" text-center text-sm">Enter your details below</p>
-            <div class=" px-10 py-8">
-                <input type="text" 
-                placeholder=" Name"
-                class=" w-full h-8 appearance-none outline-none 
-                 border-b-[1px] border-gray-200 placeholder:text-sm"  />
-                <input type="text" 
-                placeholder="Email & Phone Number"
-                class=" my-6 w-full h-8 appearance-none outline-none 
+    <div class="grid sm:grid-cols-12 gap-12 pt-8 pb-16 ">
+        <div class="grid col-span-6">
+            <img src="./images/loginBanner.svg" />
+        </div>
+        <div class="grid col-span-6">
+            <div class="w-[372px] h-[530px] mx-auto">
+                <h1 class=" text-center text-2xl font-semibold py-3">Create an account</h1>
+                <p class=" text-center text-sm">Enter your details below</p>
+                <div class=" px-10 py-8">
+                    <input type="text" placeholder=" Name" class=" w-full h-8 appearance-none outline-none 
                  border-b-[1px] border-gray-200 placeholder:text-sm" />
-                <input type="text" 
-                placeholder="Password"
-                class=" w-full h-8 appearance-none outline-none 
+                    <input type="text" placeholder="Email & Phone Number" class=" my-6 w-full h-8 appearance-none outline-none 
                  border-b-[1px] border-gray-200 placeholder:text-sm" />
-                 <button class=" w-full text-white rounded-sm my-8 bg-red-500 py-3 px-6">
-                    Create Account
-                 </button>
-                 <button class=" flex justify-center items-center gap-3 w-full rounded-sm border-[1px] py-3 px-6">
-                    <img src="/images/Icon-Google.svg" />
-                    Google Account
-                 </button>
-                 <div class=" flex justify-center items-center text-[10px] gap-2 my-3">
-                    <p>Already have account?</p>
-                    <a href="/loginExclusive.html" class=" bg-slate-100 shadow-md p-[2px] ">Login</a>
-                 </div>
+                    <input type="text" placeholder="Password" class=" w-full h-8 appearance-none outline-none 
+                 border-b-[1px] border-gray-200 placeholder:text-sm" />
+                    <button class=" w-full text-white rounded-sm my-8 bg-red-500 py-3 px-6">
+                        Create Account
+                    </button>
+                    <button class=" flex justify-center items-center gap-3 w-full rounded-sm border-[1px] py-3 px-6">
+                        <img src="/images/Icon-Google.svg" />
+                        Google Account
+                    </button>
+                    <div class=" flex justify-center items-center text-[10px] gap-2 my-3">
+                        <p>Already have account?</p>
+                        <a href="/loginExclusive.html" class=" bg-slate-100 shadow-md p-[2px] ">Login</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+   </div>
 
 
- <!-- footer -->
- <div class='grid sm:grid-cols-10 px-4 sm:px-12 sm:justify-self-center gap-12 sm:gap-4 h-full w-full  sm:h-[500px] bg-black text-white py-24'>
+    <!-- footer -->
+    <div class="max-w-7xl mx-auto">
+        <div
+            class='grid sm:grid-cols-10 px-4 sm:px-12 sm:justify-self-center gap-12 sm:gap-4 h-full w-full  sm:h-[500px] bg-black text-white py-24'>
 
-    <div class=" grid sm:col-span-2 justify-self-center">
-        <div class="flex flex-col">
-            <h1 class=" text-lg font-bold mb-4">Exclusive</h1>
-            <p class=" text-md mb-3">Subscribe</p>
-            <p class=" text-sm text-gray-400 mb-4">Get 10% off your first order</p>
-            <div
-                class=" flex flex-row justify-between gap-4 items-center px-2 shadow-sm shadow-gray-400 py-2 rounded-sm border-[1px] border-gray-300">
-                <input class=" h-[30px] w-[80px] sm:w-[130px] bg-black rounded-md placeholder:text-[15px] px-2"
-                    type="text" placeholder="Enter your email" />
-                <img class="h-4" src="./images/Vector.svg" />
+            <div class=" grid sm:col-span-2 justify-self-center">
+                <div class="flex flex-col">
+                    <h1 class=" text-lg font-bold mb-4">Exclusive</h1>
+                    <p class=" text-md mb-3">Subscribe</p>
+                    <p class=" text-sm text-gray-400 mb-4">Get 10% off your first order</p>
+                    <div
+                        class=" flex flex-row justify-between gap-4 items-center px-2 shadow-sm shadow-gray-400 py-2 rounded-sm border-[1px] border-gray-300">
+                        <input class=" h-[30px] w-[80px] sm:w-[130px] bg-black rounded-md placeholder:text-[15px] px-2"
+                            type="text" placeholder="Enter your email" />
+                        <img class="h-4" src="./images/Vector.svg" />
+                    </div>
+                </div>
+            </div>
+
+            <div class=" grid sm:col-span-2 justify-self-center">
+                <div class="flex flex-col">
+                    <h1 class=" text-lg font-bold mb-4">Support</h1>
+                    <p class=" text-md mb-3 text-gray-400">111 Bijoy sarani, Dhaka, DH 1515,
+                        Bangladesh.</p>
+                    <p class=" text-sm text-gray-400 mb-4">exclusive@gmail.com</p>
+                    <p class=" text-sm text-gray-400 mb-4">+88015-88888-9999</p>
+
+                </div>
+            </div>
+
+            <div class=" grid sm:col-span-2 sm:justify-self-center">
+                <div class="flex flex-col">
+                    <h1 class=" text-lg font-bold mb-4">Account</h1>
+                    <p class=" text-md mb-3 text-gray-400">My Account</p>
+                    <p class=" text-sm text-gray-400 mb-4">Login / Register</p>
+                    <p class=" text-sm text-gray-400 mb-4">Cart</p>
+                    <p class=" text-sm text-gray-400 mb-4">Wishlist</p>
+                    <p class=" text-sm text-gray-400 mb-4">Shop</p>
+
+                </div>
+            </div>
+
+            <div class=" grid sm:col-span-2 sm:justify-self-center">
+                <div class="flex flex-col">
+                    <h1 class=" text-lg font-bold mb-4">Quick Link</h1>
+                    <p class=" text-md mb-3 text-gray-400">Privacy Policy</p>
+                    <p class=" text-sm text-gray-400 mb-4">Terms Of Use</p>
+                    <p class=" text-sm text-gray-400 mb-4">FAQ</p>
+                    <p class=" text-sm text-gray-400 mb-4">Contact</p>
+                </div>
+            </div>
+
+            <div class=" grid col-span-2 justify-self-center">
+                <div class="flex flex-col">
+                    <h1 class=" text-lg font-bold mb-4">Download App</h1>
+                    <p class=" text-md mb-3 text-gray-400">Save $3 with App New User Only</p>
+                    <img src="./images/qrCode.svg" />
+                    <img class=" py-2" src="./images/fb.svg" />
+
+                </div>
             </div>
         </div>
     </div>
-
-    <div class=" grid sm:col-span-2 justify-self-center">
-        <div class="flex flex-col">
-            <h1 class=" text-lg font-bold mb-4">Support</h1>
-            <p class=" text-md mb-3 text-gray-400">111 Bijoy sarani, Dhaka, DH 1515,
-                Bangladesh.</p>
-            <p class=" text-sm text-gray-400 mb-4">exclusive@gmail.com</p>
-            <p class=" text-sm text-gray-400 mb-4">+88015-88888-9999</p>
-
-        </div>
-    </div>
-
-    <div class=" grid sm:col-span-2 sm:justify-self-center">
-        <div class="flex flex-col">
-            <h1 class=" text-lg font-bold mb-4">Account</h1>
-            <p class=" text-md mb-3 text-gray-400">My Account</p>
-            <p class=" text-sm text-gray-400 mb-4">Login / Register</p>
-            <p class=" text-sm text-gray-400 mb-4">Cart</p>
-            <p class=" text-sm text-gray-400 mb-4">Wishlist</p>
-            <p class=" text-sm text-gray-400 mb-4">Shop</p>
-
-        </div>
-    </div>
-
-    <div class=" grid sm:col-span-2 sm:justify-self-center">
-        <div class="flex flex-col">
-            <h1 class=" text-lg font-bold mb-4">Quick Link</h1>
-            <p class=" text-md mb-3 text-gray-400">Privacy Policy</p>
-            <p class=" text-sm text-gray-400 mb-4">Terms Of Use</p>
-            <p class=" text-sm text-gray-400 mb-4">FAQ</p>
-            <p class=" text-sm text-gray-400 mb-4">Contact</p>
-        </div>
-    </div>
-
-    <div class=" grid col-span-2 justify-self-center">
-        <div class="flex flex-col">
-            <h1 class=" text-lg font-bold mb-4">Download App</h1>
-            <p class=" text-md mb-3 text-gray-400">Save $3 with App New User Only</p>
-            <img src="./images/qrCode.svg" />
-            <img class=" py-2" src="./images/fb.svg" />
-
-        </div>
-    </div>
-</div>
 
 </body>
 
