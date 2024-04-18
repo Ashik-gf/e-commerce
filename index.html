@@ -26,12 +26,13 @@
       </div>
     </div>
 <div class=" max-w-7xl mx-auto px-12">
- <header class=" grid grid-cols-12 gap-4 items-center py-3 ">
-        <aside class=" md:col-span-2 col-span-full text-center md:text-start ">
+ <header class=" sm:grid grid-cols-12 gap-4 items-center py-3 ">
+        <aside class=" flex justify-between md:col-span-2 col-span-full text-center md:text-start py-4 ">
             <h1 class="w-[100px] text-center border-b-4 border-green-500 rounded-md text-xl font-semibold ">Exclusive</h1>
+            <img class=" sm:hidden h-[30px] cursor-pointer" src="./images/house.svg" />
         </aside>
         <nav
-            class=" py-4 sm:col-span-6 col-span-full sm:gap-6 gap-2 justify-self-start md:justify-self-center items-center ">
+            class=" hidden lg:block py-4 sm:col-span-6 col-span-full sm:gap-6 gap-2 justify-self-start md:justify-self-center items-center ">
             <a class="ml-4 px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
                 href="/ ">Home</a>
             <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
@@ -41,8 +42,8 @@
             <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
                 href="/login.html">Login</a>
         </nav>
-        <div class="  md:col-span-4 col-span-full text-center md:text-start">
-            <div class="flex justify-between  items-center gap-3">
+        <div class=" lg:col-span-4  md:col-span-10 col-span-full text-center md:text-start">
+            <div class="  flex justify-between md:justify-end  items-center gap-3">
                 <div class="relative ">
                     <input type="text" class=" h-[35px] w-[220px] bg-[#f5f5f5] cursor-pointer
                      border-[1px] rounded-md border-gray-200 placeholder:text-black 
@@ -94,27 +95,27 @@
                 <div class="w-2 h-4 bg-red-600 "></div>
                 <h1 class="text-[16px] font-semibold text-red-600">Today’s</h1>
             </div>
-            <div class="grid grid-cols-12 gap-6 sm:gap-4 justify-self-auto py-6 ">
+            <div class="grid grid-cols-12 gap-4 sm:gap-4 justify-self-auto py-6 ">
                 <!-- sectipn1 -->
                 <div class="grid col-span-3 ">
-                    <h1 class=" sm:text-[36px] font-semibold">Flash Sales</h1>
+                    <h1 class=" text-[12px] md:text-[24px] lg:text-[36px] font-semibold">Flash Sales</h1>
                 </div>
                 <!-- secrtion2 -->
-                <main class=" grid col-span-6 sm:col-span-7">
+                <main class=" grid col-span-6 items-center justify-self-center sm:col-span-7">
                     <img src="./images/timer.svg" />
                 </main>
                 <!-- 3 -->
-                <div class=" grid col-span-3 sm:col-span-2  justify-self-stretch">
+                <div class=" grid col-span-3  sm:col-span-2  justify-self-stretch">
                     <div class="flex justify-end items-center gap-3">
-                        <img class="h-8 w-8 rounded-full p-2 bg-gray-200" src="./images/left.svg" />
-                        <img class="h-8 w-8 rounded-full p-2 bg-gray-200" src="./images/right.svg" />
+                        <img class=" h-4 sm:h-8 w-4 sm:w-8 rounded-full p-2 bg-gray-200" src="./images/left.svg" />
+                        <img class=" h-4 sm:h-8 w-4 sm:w-8 rounded-full p-2 bg-gray-200" src="./images/right.svg" />
                     </div>
                 </div>
 
             </div>
         </div>
         <!-- Card Section -->
-        <div class=" w-full grid  sm:grid-cols-12 justify-items-center gap-4 overflow-hidden ">
+        <div class=" w-full grid lg:grid-cols-12 md:grid-cols-6 justify-items-center gap-4 overflow-hidden ">
             <!-- card 1 -->
             <div class="grid col-span-3 w-[270px] h-[350px]  ">
                 <div class=" group relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
@@ -219,7 +220,7 @@
 
         </div>
         <div class="w-full grid py-12 ">
-            <button class=" bg-red-500 text-white w-[234px] mx-auto h-[56px] px-12 py-4 rounded-[4px]">
+            <button class=" bg-red-500 hover:bg-red-400 text-white w-[234px] mx-auto h-[56px] px-12 py-4 rounded-[4px]">
                 View All Products
             </button>
         </div>
@@ -272,7 +273,7 @@
                     <img class="group-hover:block hidden  rounded-lg " src="./images/red-watch.svg" alt=""></a>
                 </li>
                 <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
-                    <img class=" group-hover:hidden " src="./images/camera.svg" alt=""></a>
+                    <img class=" group-hover:hidden " src="./images/camera-white.svg" alt=""></a>
                     <img class="group-hover:block hidden  rounded-lg " src="./images/red-camera.svg" alt=""></a>
                 </li>
                 <li class=" group grid col-span-4 rounded-lg sm:col-span-2"><a href="">
@@ -298,17 +299,17 @@
             </div>
             <div class="grid grid-cols-12 gap-4 justify-self-auto py-6 ">
                 <!-- sectipn1 -->
-                <div class="grid col-span-6 sm:col-span-5  ">
-                    <h1 class=" sm:text-[36px] font-semibold">Best Selling Products</h1>
+                <div class="grid bg-slate-400 col-span-8 md:col-span-8 lg:col-span-5  ">
+                    <h1 class=" text-[20px] sm:text-[36px] font-semibold">Best Selling Products</h1>
                 </div>
                 <!-- secrtion2 -->
-                <main class=" grid col-span-1 sm:col-span-5">
+                <main class=" grid bg-zinc-500 col-span-0 md:col-span-2 sm:col-span-5 lg:col-span-5">
 
                 </main>
                 <!-- 3 -->
-                <div class=" grid col-span-5 sm:col-span-2 justify-self-stretch">
+                <div class=" grid bg-red-200 col-span-3  sm:col-span-2 justify-self-stretch">
                     <div class="flex justify-end items-center gap-3">
-                        <button class=" bg-red-500 px-4 py-2 rounded-md text-white">
+                        <button class=" bg-red-500 px-2 sm:px-4 py-2 rounded-md text-white">
                             View All
                         </button>
                     </div>
@@ -317,7 +318,8 @@
             </div>
         </div>
         <!-- shirt -->
-        <div class=" h-full gap-4 grid grid-cols-12 overflow-hidden">
+        <div class=" h-full gap-4 grid md:grid-cols-6 lg:grid-cols-12 overflow-hidden">
+            <!-- shirt -->
             <div class="grid col-span-12 justify-self-center hover:shadow-lg shadow-blue-400  sm:col-span-3 w-[270px] h-[350px]  ">
                 <div class=" relative cursor-pointer w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <div class=" space-y-2 absolute top-2 right-1">
@@ -428,7 +430,7 @@
             <div class="grid grid-cols-12 gap-4 justify-self-auto py-6 ">
                 <!-- sectipn1 -->
                 <div class="grid col-span-4 ">
-                    <h1 class=" sm:text-[36px] font-semibold">Explore Our Products</h1>
+                    <h1 class=" md:text-[20px] sm:text-[36px] font-semibold">Explore Our Products</h1>
                 </div>
                 <!-- secrtion2 -->
                 <main class=" grid col-span-6">
@@ -445,7 +447,7 @@
             </div>
         </div>
         <!-- Card Section -->
-        <div class="grid grid-cols-12 gap-8 sm:gap-4 overflow-hidden ">
+        <div class="grid md:grid-cols-6 lg:grid-cols-12 gap-8 sm:gap-4 overflow-hidden ">
             <!-- card 1 -->
             <div class="grid col-span-12 justify-self-center sm:col-span-3 w-[270px] h-[350px]  ">
                 <div class=" group  cursor-pointer relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
@@ -662,7 +664,7 @@
                 <div class="grid grid-cols-12 gap-4 justify-self-auto py-6 ">
                     <!-- sectipn1 -->
                     <div class="grid col-span-4 sm:col-span-3 ">
-                        <h1 class=" sm:text-[36px] font-semibold">New Arrival</h1>
+                        <h1 class=" md:text-[20px] lg:text-[36px] font-semibold">New Arrival</h1>
                     </div>
                     <!-- secrtion2 -->
                     <main class=" grid col-span-6 sm:col-span-7">
@@ -678,7 +680,7 @@
                 </div>
             </div>
             <!-- Card Section -->
-            <div class="grid grid-flow-row sm:grid-cols-12 gap-4 overflow-hidden ">
+            <div class="grid grid-flow-row lg:grid-cols-12 gap-4 overflow-hidden ">
                 <!-- card 1 -->
                 <div class="grid sm:col-span-6   ">
                     <img src="./images/l1.svg" />
@@ -689,7 +691,7 @@
                         <img src="./images/r1.svg" />
                     </div>
                     <div class="flex flex-col sm:flex-row sm:justify-between gap-4">
-                        <img src="./images/r2.svg" />
+                        <img  src="./images/r2.svg" />
                         <img src="./images/r3.svg" />
                     </div>
                 </div>
@@ -698,12 +700,12 @@
         </div>
     </div>
 
-    <!-- Delevery Stutas -->
+    <!--new arrivel -->
     <div class="max-w-7xl mx-auto flex justify-center px-12 py-8">
         <img src="./images/Frame 702.svg" />
     </div>
-
-    <div class='max-w-7xl mx-auto grid sm:grid-cols-10 px-4 sm:px-12 sm:justify-self-center gap-12 sm:gap-4 h-full w-full  sm:h-[500px] bg-black text-white py-24'>
+<!-- footer -->
+    <div class='max-w-7xl mx-auto grid md:grid-cols-6 lg:grid-cols-10 px-4 sm:px-12 sm:justify-self-center gap-12 sm:gap-4 h-full w-full  lg:h-[500px] bg-black text-white py-24'>
 
         <div class=" grid sm:col-span-2 justify-self-center">
             <div class="flex flex-col">

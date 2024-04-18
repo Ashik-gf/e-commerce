@@ -12,12 +12,12 @@
 <body>
 <div class="max-w-7xl mx-auto">
 <div class="max-w-7xl mx-auto px-12">
-     <header class=" grid grid-cols-12 gap-4 items-center py-3 px-12">
-        <aside class=" md:col-span-2 col-span-full text-center md:text-start ">
+     <header class=" grid grid-cols-12 gap-4 items-center py-3 ">
+        <aside class=" md:col-span-2  col-span-full text-center md:text-start ">
             <h1 class=" text-xl font-semibold">Exclusive</h1>
         </aside>
         <nav
-            class=" py-4 sm:col-span-6 col-span-full sm:gap-6 gap-2 justify-self-start md:justify-self-center items-center ">
+            class=" hidden lg:block py-4 sm:col-span-5 col-span-full sm:gap-6 gap-2 justify-self-start md:justify-self-end items-center ">
             <a class="ml-4 px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
                 href="/#">Home</a>
             <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
@@ -27,7 +27,7 @@
             <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
                 href="/#">Login</a>
         </nav>
-        <div class="  md:col-span-4 col-span-full text-center md:text-start">
+        <div class=" col-span-full md:col-span-10 md:justify-self-end lg:col-span-5  text-center md:text-start">
             <div class="flex justify-between  items-center gap-3">
                 <div class="relative ">
                     <input type="text" class=" h-[35px] w-[220px] bg-[#f5f5f5] cursor-pointer
@@ -51,21 +51,19 @@
 </div>
 <div class=" max-w-7xl h-[1px] bg-gray-300"></div>
 <div class="max-w-7xl mx-auto px-12">
-
-    <div class="wishlist py-12">
-        <div class="px-12">
-
+    <div class="wishlist py-8 md:py-12">
+        <div class="">
             <div class="grid grid-cols-12 gap-4 justify-self-auto py-6 ">
                 <!-- sectipn1 -->
-                <div class="grid col-span-6 sm:col-span-5  ">
+                <div class="grid col-span-5 sm:col-span-5 pt-2 ">
                     <h1 class=" sm:text-[20px] font-semibold">Wishlist (4)</h1>
                 </div>
                 <!-- secrtion2 -->
-                <main class=" grid col-span-1 sm:col-span-5">
+                <main class=" grid col-span-1 md:col-span-4 lg:col-span-5">
 
                 </main>
                 <!-- 3 -->
-                <div class=" grid col-span-5 sm:col-span-2 justify-self-stretch">
+                <div class=" grid col-span-6 md:col-span-3 lg:col-span-2 justify-self-stretch">
                     <div class="flex justify-end items-center gap-3">
                         <button class=" px-4 py-2 rounded-md border-[1px] border-gray-300">
                             Move all to Bag
@@ -76,7 +74,7 @@
             </div>
         </div>
         <!-- bag -->
-        <div class=" h-full gap-4 grid grid-cols-12 overflow-hidden px-8">
+        <div class=" h-full gap-4 grid md:grid-cols-6 lg:grid-cols-12 overflow-hidden px-8">
             <div class="grid col-span-12 justify-self-center  sm:col-span-3 w-[270px] h-[350px]  ">
                 <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-35%</h1>
@@ -177,8 +175,9 @@
         </div>
     </div>
     <!-- just for y -->
+
     <div class="wishlist my-4">
-        <div class="px-12">
+        <div class="">
 
             <div class="grid grid-cols-12 gap-4 justify-self-auto py-6 ">
                 <!-- sectipn1 -->
@@ -204,7 +203,7 @@
             </div>
         </div>
         <!-- Laptop -->
-        <div class=" h-full gap-4 grid grid-cols-12 overflow-hidden px-8">
+        <div class=" h-full gap-6 grid md:grid-cols-6 lg:grid-cols-12 overflow-hidden px-8">
             <div class="grid col-span-12 justify-self-center  sm:col-span-3 w-[270px] h-[350px]  ">
                 <div class=" relative w-full h-[250px] bg-[#f5f5f5] flex justify-center items-center">
                     <h1 class=" absolute top-2 left-2 bg-red-500 px-3 rounded-md text-white">-35%</h1>
@@ -322,68 +321,66 @@
 
 
 
-    <!-- footer -->
-   <div class="max-w-7xl mx-auto">
-    <div class='grid sm:grid-cols-10 px-4 sm:px-12 sm:justify-self-center gap-12 sm:gap-4 h-full w-full  sm:h-[500px] bg-black text-white py-24'>
+   <!-- footer -->
+   <div class='max-w-7xl mx-auto grid md:grid-cols-6 lg:grid-cols-10 px-4 sm:px-12 sm:justify-self-center gap-12 sm:gap-4 h-full w-full  lg:h-[500px] bg-black text-white py-24'>
 
-        <div class=" grid sm:col-span-2 justify-self-center">
-            <div class="flex flex-col">
-                <h1 class=" text-lg font-bold mb-4">Exclusive</h1>
-                <p class=" text-md mb-3">Subscribe</p>
-                <p class=" text-sm text-gray-400 mb-4">Get 10% off your first order</p>
-                <div
-                    class=" flex flex-row justify-between gap-4 items-center px-2 shadow-sm shadow-gray-400 py-2 rounded-sm border-[1px] border-gray-300">
-                    <input class=" h-[30px] w-[80px] sm:w-[130px] bg-black rounded-md placeholder:text-[15px] px-2"
-                        type="text" placeholder="Enter your email" />
-                    <img class="h-4" src="./images/Vector.svg" />
-                </div>
-            </div>
-        </div>
-
-        <div class=" grid sm:col-span-2 justify-self-center">
-            <div class="flex flex-col">
-                <h1 class=" text-lg font-bold mb-4">Support</h1>
-                <p class=" text-md mb-3 text-gray-400">111 Bijoy sarani, Dhaka, DH 1515,
-                    Bangladesh.</p>
-                <p class=" text-sm text-gray-400 mb-4">exclusive@gmail.com</p>
-                <p class=" text-sm text-gray-400 mb-4">+88015-88888-9999</p>
-
-            </div>
-        </div>
-
-        <div class=" grid sm:col-span-2 sm:justify-self-center">
-            <div class="flex flex-col">
-                <h1 class=" text-lg font-bold mb-4">Account</h1>
-                <p class=" text-md mb-3 text-gray-400">My Account</p>
-                <p class=" text-sm text-gray-400 mb-4">Login / Register</p>
-                <p class=" text-sm text-gray-400 mb-4">Cart</p>
-                <p class=" text-sm text-gray-400 mb-4">Wishlist</p>
-                <p class=" text-sm text-gray-400 mb-4">Shop</p>
-
-            </div>
-        </div>
-
-        <div class=" grid sm:col-span-2 sm:justify-self-center">
-            <div class="flex flex-col">
-                <h1 class=" text-lg font-bold mb-4">Quick Link</h1>
-                <p class=" text-md mb-3 text-gray-400">Privacy Policy</p>
-                <p class=" text-sm text-gray-400 mb-4">Terms Of Use</p>
-                <p class=" text-sm text-gray-400 mb-4">FAQ</p>
-                <p class=" text-sm text-gray-400 mb-4">Contact</p>
-            </div>
-        </div>
-
-        <div class=" grid col-span-2 justify-self-center">
-            <div class="flex flex-col">
-                <h1 class=" text-lg font-bold mb-4">Download App</h1>
-                <p class=" text-md mb-3 text-gray-400">Save $3 with App New User Only</p>
-                <img src="./images/qrCode.svg" />
-                <img class=" py-2" src="./images/fb.svg" />
-
+    <div class=" grid sm:col-span-2 justify-self-center">
+        <div class="flex flex-col">
+            <h1 class=" text-lg font-bold mb-4">Exclusive</h1>
+            <p class=" text-md mb-3">Subscribe</p>
+            <p class=" text-sm text-gray-400 mb-4">Get 10% off your first order</p>
+            <div
+                class=" flex flex-row justify-between gap-4 items-center px-2 shadow-sm shadow-gray-400 py-2 rounded-sm border-[1px] border-gray-300">
+                <input class=" h-[30px] w-[80px] sm:w-[130px] bg-black rounded-md placeholder:text-[15px] px-2"
+                    type="text" placeholder="Enter your email" />
+                <img class="h-4" src="./images/Vector.svg" />
             </div>
         </div>
     </div>
-   </div>
+
+    <div class=" grid sm:col-span-2 justify-self-center">
+        <div class="flex flex-col">
+            <h1 class=" text-lg font-bold mb-4">Support</h1>
+            <p class=" text-md mb-3 text-gray-400">111 Bijoy sarani, Dhaka, DH 1515,
+                Bangladesh.</p>
+            <p class=" text-sm text-gray-400 mb-4">exclusive@gmail.com</p>
+            <p class=" text-sm text-gray-400 mb-4">+88015-88888-9999</p>
+
+        </div>
+    </div>
+
+    <div class=" grid sm:col-span-2 sm:justify-self-center">
+        <div class="flex flex-col">
+            <h1 class=" text-lg font-bold mb-4">Account</h1>
+            <p class=" text-md mb-3 text-gray-400">My Account</p>
+            <p class=" text-sm text-gray-400 mb-4">Login / Register</p>
+            <p class=" text-sm text-gray-400 mb-4">Cart</p>
+            <p class=" text-sm text-gray-400 mb-4">Wishlist</p>
+            <p class=" text-sm text-gray-400 mb-4">Shop</p>
+
+        </div>
+    </div>
+
+    <div class=" grid sm:col-span-2 sm:justify-self-center">
+        <div class="flex flex-col">
+            <h1 class=" text-lg font-bold mb-4">Quick Link</h1>
+            <p class=" text-md mb-3 text-gray-400">Privacy Policy</p>
+            <p class=" text-sm text-gray-400 mb-4">Terms Of Use</p>
+            <p class=" text-sm text-gray-400 mb-4">FAQ</p>
+            <p class=" text-sm text-gray-400 mb-4">Contact</p>
+        </div>
+    </div>
+
+    <div class=" grid col-span-2 justify-self-center">
+        <div class="flex flex-col">
+            <h1 class=" text-lg font-bold mb-4">Download App</h1>
+            <p class=" text-md mb-3 text-gray-400">Save $3 with App New User Only</p>
+            <img src="./images/qrCode.svg" />
+            <img class=" py-2" src="./images/fb.svg" />
+
+        </div>
+    </div>
+</div>
 
 </body>
 
