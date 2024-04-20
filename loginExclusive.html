@@ -10,40 +10,58 @@
 </head>
 
 <body>
-<div class="max-w-7xl mx-auto px-12">
-    <header class=" grid grid-cols-12 gap-4 items-center py-3">
-        <aside class=" md:col-span-2 col-span-full text-center md:text-start ">
-            <h1 class=" text-xl font-semibold">Exclusive</h1>
-        </aside>
-        <nav
-            class=" py-4 sm:col-span-6 col-span-full sm:gap-6 gap-2 justify-self-start md:justify-self-center items-center ">
-            <a class="ml-4 px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
-                href="/#">Home</a>
-            <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
-                href="/#">About</a>
-            <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
-                href="/#">Products</a>
-            <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
-                href="./login.html">Login</a>
-        </nav>
-        <div class="  md:col-span-4 col-span-full text-center md:text-start">
-            <div class="flex justify-between  items-center gap-3">
-                <div class="relative ">
-                    <input type="text" class=" h-[35px] w-[220px] bg-[#f5f5f5] cursor-pointer
-                     border-[1px] rounded-md border-gray-200 placeholder:text-black 
-                     placeholder:text-sm placeholder:px-3" placeholder="What are you looking for?" />
-                    <img class="absolute top-2 right-2" src="./images/search.svg" />
-                </div>
-                <div class=" flex justify-between items-center gap-4">
-                   <a href="./WishList.html"> <img class="h-6" src="./images/./love.png" /></a>
-               <a href="./cart.html"> <img class=" h-8 w-8" src="./images/./Cart1.svg" /></a>
-                </div>
-            </div>
+    <div class=" max-w-7xl h-full sm:h-[48px] flex items-center mx-auto px-12  bg-black">
+        <div class=" w-full flex flex-col sm:flex-row sm:justify-between items-center">
+          <div class=" w-[300px]"></div>
+          <div class="flex justify-end items-center gap-2 sm:gap-4">
+              <p class=" text-white text-[10px] sm:text-sm">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
+              <a href="#/" class=" border-b-2 border-white text-white text-[10px] sm:text-sm">Shop Now</a>
+          </div>
+          <div class=" w-full sm:w-auto flex justify-end py-3">
+              <select class=" text-white text-sm bg-black  ">
+                  <option class=" ">English</option>
+                  <option>Bangla</option>
+              </select>
+          </div>
         </div>
-    </header>
+      </div>
+<div class="max-w-7xl mx-auto px-12">
+    <div class=" max-w-7xl mx-auto">
+        <header class=" sm:grid grid-cols-12 gap-4 items-center py-3 ">
+               <aside class=" flex justify-between md:col-span-2 col-span-full text-center md:text-start py-4 ">
+                   <h1 class="w-[100px] text-center border-b-4 border-green-500 rounded-md text-xl font-semibold ">Exclusive</h1>
+                   <img class=" sm:hidden h-[30px] cursor-pointer" src="./images/house.svg" />
+               </aside>
+               <nav
+                   class=" hidden lg:block py-4 sm:col-span-6 col-span-full sm:gap-6 gap-2 justify-self-start md:justify-self-center items-center ">
+                   <a class="ml-4 px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
+                       href="/ ">Home</a>
+                   <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
+                       href="./about.html">About</a>
+                   <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
+                       href="./WishList.html">Products</a>
+                   <a class=" px-4 hover:border-b-4 hover:border-t-0 rounded-b-lg p-2 border-b-2 hover:border-green-400 text-lg"
+                       href="/login.html">Login</a>
+               </nav>
+               <div class=" lg:col-span-4  md:col-span-10 col-span-full text-center md:text-start">
+                   <div class="  flex justify-between md:justify-end  items-center gap-3">
+                       <div class="relative ">
+                           <input type="text" class=" h-[35px] w-[220px] bg-[#f5f5f5] cursor-pointer
+                            border-[1px] rounded-md border-gray-200 placeholder:text-black 
+                            placeholder:text-sm placeholder:px-3" placeholder="What are you looking for?" />
+                           <img class="absolute top-2 right-2" src="./images/search.svg" />
+                       </div>
+                       <div class=" flex justify-between items-center gap-4">
+                          <a href="./WishList.html" class="h-8 w-8 cursor-pointer"> <img  src="./images/./love.png" /></a>
+                           <a href="./cart.html" class="h-8 w-8 cursor-pointer"><img  src="./images/./Cart1.svg" /></a>
+                       </div>
+                   </div>
+               </div>
+       </header>
+       </div>
     <hr />
     <!-- from -->
-<div class="grid sm:grid-cols-12 gap-12 pt-8 sm:pb-12">
+<div class="grid lg:grid-cols-12 gap-12 pt-8 sm:pb-12">
     <div class="grid col-span-6">
         <img src="./images/loginBanner.svg" />
     </div>
@@ -72,67 +90,64 @@
         </div>
     </div>
 </div>
-
 </div>
  <!-- footer -->
-<div class="max-w-7xl mx-auto">
-    <div class='grid sm:grid-cols-10 px-4 sm:px-12 sm:justify-self-center gap-12 sm:gap-4 h-full w-full  sm:h-[500px] bg-black text-white py-24'>
+ <div class='max-w-7xl mx-auto grid md:grid-cols-6 lg:grid-cols-10 px-4 sm:px-12 sm:justify-self-center gap-12 sm:gap-4 h-full w-full  lg:h-[500px] bg-black text-white py-24'>
 
-        <div class=" grid sm:col-span-2 justify-self-center">
-            <div class="flex flex-col">
-                <h1 class=" text-lg font-bold mb-4">Exclusive</h1>
-                <p class=" text-md mb-3">Subscribe</p>
-                <p class=" text-sm text-gray-400 mb-4">Get 10% off your first order</p>
-                <div
-                    class=" flex flex-row justify-between gap-4 items-center px-2 shadow-sm shadow-gray-400 py-2 rounded-sm border-[1px] border-gray-300">
-                    <input class=" h-[30px] w-[80px] sm:w-[130px] bg-black rounded-md placeholder:text-[15px] px-2"
-                        type="text" placeholder="Enter your email" />
-                    <img class="h-4" src="./images/Vector.svg" />
-                </div>
+    <div class=" grid sm:col-span-2 justify-self-center">
+        <div class="flex flex-col">
+            <h1 class=" text-lg font-bold mb-4">Exclusive</h1>
+            <p class=" text-md mb-3">Subscribe</p>
+            <p class=" text-sm text-gray-400 mb-4">Get 10% off your first order</p>
+            <div
+                class=" flex flex-row justify-between gap-4 items-center px-2 shadow-sm shadow-gray-400 py-2 rounded-sm border-[1px] border-gray-300">
+                <input class=" h-[30px] w-[80px] sm:w-[130px] bg-black rounded-md placeholder:text-[15px] px-2"
+                    type="text" placeholder="Enter your email" />
+                <img class="h-4" src="./images/Vector.svg" />
             </div>
         </div>
-    
-        <div class=" grid sm:col-span-2 justify-self-center">
-            <div class="flex flex-col">
-                <h1 class=" text-lg font-bold mb-4">Support</h1>
-                <p class=" text-md mb-3 text-gray-400">111 Bijoy sarani, Dhaka, DH 1515,
-                    Bangladesh.</p>
-                <p class=" text-sm text-gray-400 mb-4">exclusive@gmail.com</p>
-                <p class=" text-sm text-gray-400 mb-4">+88015-88888-9999</p>
-    
-            </div>
+    </div>
+
+    <div class=" grid sm:col-span-2 justify-self-center">
+        <div class="flex flex-col">
+            <h1 class=" text-lg font-bold mb-4">Support</h1>
+            <p class=" text-md mb-3 text-gray-400">111 Bijoy sarani, Dhaka, DH 1515,
+                Bangladesh.</p>
+            <p class=" text-sm text-gray-400 mb-4">exclusive@gmail.com</p>
+            <p class=" text-sm text-gray-400 mb-4">+88015-88888-9999</p>
+
         </div>
-    
-        <div class=" grid sm:col-span-2 sm:justify-self-center">
-            <div class="flex flex-col">
-                <h1 class=" text-lg font-bold mb-4">Account</h1>
-                <p class=" text-md mb-3 text-gray-400">My Account</p>
-                <p class=" text-sm text-gray-400 mb-4">Login / Register</p>
-                <p class=" text-sm text-gray-400 mb-4">Cart</p>
-                <p class=" text-sm text-gray-400 mb-4">Wishlist</p>
-                <p class=" text-sm text-gray-400 mb-4">Shop</p>
-    
-            </div>
+    </div>
+
+    <div class=" grid sm:col-span-2 sm:justify-self-center">
+        <div class="flex flex-col">
+            <h1 class=" text-lg font-bold mb-4">Account</h1>
+            <p class=" text-md mb-3 text-gray-400">My Account</p>
+            <p class=" text-sm text-gray-400 mb-4">Login / Register</p>
+            <p class=" text-sm text-gray-400 mb-4">Cart</p>
+            <p class=" text-sm text-gray-400 mb-4">Wishlist</p>
+            <p class=" text-sm text-gray-400 mb-4">Shop</p>
+
         </div>
-    
-        <div class=" grid sm:col-span-2 sm:justify-self-center">
-            <div class="flex flex-col">
-                <h1 class=" text-lg font-bold mb-4">Quick Link</h1>
-                <p class=" text-md mb-3 text-gray-400">Privacy Policy</p>
-                <p class=" text-sm text-gray-400 mb-4">Terms Of Use</p>
-                <p class=" text-sm text-gray-400 mb-4">FAQ</p>
-                <p class=" text-sm text-gray-400 mb-4">Contact</p>
-            </div>
+    </div>
+
+    <div class=" grid sm:col-span-2 sm:justify-self-center">
+        <div class="flex flex-col">
+            <h1 class=" text-lg font-bold mb-4">Quick Link</h1>
+            <p class=" text-md mb-3 text-gray-400">Privacy Policy</p>
+            <p class=" text-sm text-gray-400 mb-4">Terms Of Use</p>
+            <p class=" text-sm text-gray-400 mb-4">FAQ</p>
+            <p class=" text-sm text-gray-400 mb-4">Contact</p>
         </div>
-    
-        <div class=" grid col-span-2 justify-self-center">
-            <div class="flex flex-col">
-                <h1 class=" text-lg font-bold mb-4">Download App</h1>
-                <p class=" text-md mb-3 text-gray-400">Save $3 with App New User Only</p>
-                <img src="./images/qrCode.svg" />
-                <img class=" py-2" src="./images/fb.svg" />
-    
-            </div>
+    </div>
+
+    <div class=" grid col-span-2 justify-self-center">
+        <div class="flex flex-col">
+            <h1 class=" text-lg font-bold mb-4">Download App</h1>
+            <p class=" text-md mb-3 text-gray-400">Save $3 with App New User Only</p>
+            <img src="./images/qrCode.svg" />
+            <img class=" py-2" src="./images/fb.svg" />
+
         </div>
     </div>
 </div>
